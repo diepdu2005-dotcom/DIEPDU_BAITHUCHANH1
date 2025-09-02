@@ -1,5 +1,5 @@
 # Tên dự án / Bài tập
-Bài 1: Lập trình điều khiển GPIO để nháy LED với chu kỳ 1s
+Bài 1: Lập trình điều khiển GPIO để nháy LED với chu kỳ 1s||
 Bài 2: Lập trình điều khiển GPIO để đọc nút nhấn và nháy LED
 .
 
@@ -28,3 +28,4 @@ Bài 2: Lập trình điều khiển GPIO để đọc nút nhấn và nháy LED
 Bài 1: https://youtube.com/shorts/sbRNhGL5hcs
 Bài 2: https://youtube.com/shorts/-xRU7uxMU_s
 (Dán link YouTube video demo sản phẩm tại đây)
+
