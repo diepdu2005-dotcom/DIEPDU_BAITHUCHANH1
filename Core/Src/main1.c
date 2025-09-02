@@ -108,7 +108,7 @@ int main(void)
   {
     /* USER CODE END WHILE */
      HAL_GPIO_TogglePin(LED0_GPIO_Port, LED0_Pin);
-     HAL_Delay(500);
+     HAL_Delay(500);//0.5s tắt; 0.5s bật
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -264,4 +264,5 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
 
