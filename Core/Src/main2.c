@@ -95,8 +95,13 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-      HAL_GPIO_TogglePin(LED0_GPIO_Port, LED0_Pin);
-	    HAL_Delay(500);
+       if (HAL_GPIO_ReadPin(BUTTON_GPIO_Port, BUTTON_Pin) == GPIO_PIN_RESET)//đọc trạng thái nút bấm
+		  {
+        HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET); // sáng khi nhấn
+     }else
+			 {
+				HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET);//tắt khi thả
+			 }
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
