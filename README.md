@@ -1,17 +1,12 @@
 # Tên dự án / Bài tập
-
-Mô tả ngắn gọn về mục tiêu của bài tập này (ví dụ: Lập trình điều khiển GPIO để đọc nút nhấn và nháy LED).
+Bài 1: Lập trình điều khiển GPIO để nháy LED với chu kỳ 1s
+Bài 2: Lập trình điều khiển GPIO để đọc nút nhấn và nháy LED
+.
 
 ---
 
 ## Thông tin nhóm
-
-|STT| | Họ và Tên    |
-|---|
-| 1 | | Nguyễn Văn A |
-| 2 | | Trần Thị B   |
-| 3 | | Lê Văn C     |
-
+1. Diệp Văn Du
 ---
 
 ## Phần cứng sử dụng
@@ -24,11 +19,12 @@ Mô tả ngắn gọn về mục tiêu của bài tập này (ví dụ: Lập tr
 
 ## Hướng dẫn Build và Nạp code
 
-1.  Mở project bằng STM32CubeIDE.
-2.  Nhấn `Build` (Ctrl + B).
-3.  Kết nối mạch nạp ST-Link và nhấn `Run` (F11) để nạp chương trình.
+1.  Mở project bằng Keil uVision5.
+2.  Nhấn `Build` (F7).
+3.  Kết nối mạch nạp ST-Link và nhấn `Run` (F8) để nạp chương trình.
 
 ---
 ## Video Demo
-
+Bài 1: https://youtube.com/shorts/sbRNhGL5hcs
+Bài 2: https://youtube.com/shorts/-xRU7uxMU_s
 (Dán link YouTube video demo sản phẩm tại đây)
